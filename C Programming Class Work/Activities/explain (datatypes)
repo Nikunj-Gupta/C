@@ -1,0 +1,107 @@
+Q1. Signed char minimum value: -128
+Explaination: Signed char can be positive or negative. we know that char 
+              contains 1byte which is equal to 8bits which is in turn equal to
+              2^8 charectars, mathamatically 
+              1byte = 8bits = 2^8charectars
+              because signed char tkes both positive and negative values 
+              so half of 2^8 will be positive and other half will be negative
+              2^8/2 = 128. so the minimum value is -128
+
+Q2. Signed char maximum value: 127
+Explaination: as mentioned above
+              1byte = 8bits = 2^8charectars
+              8bits in the sense 1st bit is signed bit and the remaining 7bits
+              bits are regular bits. signed bit takes only 1 or 0.
+              if u want max value of signed char assign 0 to sign bit and 1 to
+              the regular bits. i.e 01111111
+              so the max value of signed char is 127.
+Q3. Unsigned char minimum value: 0
+Explaination: Unsigned char takes non negative values so its minimum value is 0
+
+Q4. Unsigned char maximum value: 255
+Explaination: unsigned char takes only non negative values. 
+              as mentioned earlier char takes 1byte = 8bits = 2^8charectars
+              we assign 1 to the sign bit and also to the 7 regular bits. Then
+              we have the number as 11111111. The value of this 255.
+
+Q5. Char minimum value: -128
+Explanation: char minimum value refers to signed char minimum value.
+              which is -128.
+
+Q6. Char maximum value: 127
+Explanation: char maximum value refers to signed char maximum value.
+              which is 127.
+
+Q7. Signed short minimum value: -32768
+Explanation: Signed short occupies a space of 2bytes=16bits=2^8charectars
+              because it signed short it can take positive and negative 
+              characters. so 2^8/2 = 32768.
+              so minimum value is -32768.
+
+Q8. Signed short maximum value: 32767
+Explanation: assign 0 to the signed bit and assign 1 to regular bits.
+              i.e 0111111111111111 
+              which is equal to 32767
+
+Q9. Unsigned short minimum value: 0
+Explanation: Unsigned short takes only nonnegative values.
+              so the minimum value of unsigned char is 0.
+
+Q10. Unsigned short maximum value: 65535
+Explanation: Unsigned short has 16bits. assign 1 to the sign bit and 1 to the
+              regualr bits i.e 1111111111111111.
+              which is euqal to 65535.
+
+Q11. Signed int minimum value: -2147483648
+Explanation: Singned int occupies 4bytes = 32bits = 2^32 charactars
+             since signed int takes both positive and negative value
+             so the minimum value is -2^32/2 = -2147483648
+
+Q12. Signed int maximum value: 2147483647
+Explanation: assign 0 to the sign bit and 1 to regular bits.
+             so the maximi=um value is 214748367
+
+Q13. Unsigned int minimum value: 0
+Explanation: unsigned int takes non negative values.
+             so the minimum value is 0
+
+Q14. Unsigned int maximum value: 4294967295
+Explanation: assign 1 to all bits i.e signed bits and regular bits.
+             there will be 32bits.
+             so the maximum value is 4294967295.
+
+Q15. Signed long minimum value: -9223372036854775808
+Explanation: signed long has 64bits. i.e 2^64 charectars.
+             as signed long int takes both positive and negative values.
+             its minimun value is -2^64/2
+             which is -9223372036854775808
+
+Q16. Signed long maximum value: 9223372036854775807
+Explanation: assign 0 to the sign bit and 1 to all the regular bits
+             so the maximum value is 9223372036854775807
+             
+Q17. Unsigned long minimum value: 0
+Explanation: Unsigned long takes only non negative values. 
+             so the minimum value is 0
+
+Q18. Unsigned long maximum value: 18446744073709551615
+Explanation: assign 1 to all 64bits i.e to signed bits and regualr bits
+             which is equal to 188446744073709551615.
+
+Q19. Signed long long minimum value: -9223372036854775808
+Explanation: signed long long has 64bits so 2^64charactars.
+             since signed long long takes positive and negative values.
+             so the minimum values is -2^64/2 = -9223372036854775808.
+Q20. Signed long long maximum value: 9223372036854775807
+Explanation: assign 0 to sign bit and 1 to regular bits.
+             so the maximum value is 9223372036854775807
+
+Q21. Unsigned long long minimum value: 0
+Explanation: unsigned long long takes non negative values.
+            so the minimum value is 0
+
+Q22. Unsigned long long maximum value: 18446744073709551615
+Explanation: assign 1 to sign bit and to regular bits.
+            so the maximum value is 18446744073709551615.
+
+

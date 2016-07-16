@@ -1,0 +1,95 @@
+Nikunj Gupta    IMT2014037      Nikunj.Gupta@iiitb.org
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q1. Signed char minimum value: -128
+
+Explanation: A char occupies 1 byte that is 8 bits.A signed char can contain a positive or a negative value. The first bit is reserved for the sign of the entered character. So the remaining bits are available for the value to be entered. 2^7 (=128) for positive and 2^7 for negative. The minimum value thus that can be entered is -128.  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q2. Signed char maximum value: 127
+
+Explanation: A char occupies 1 byte that is 8 bits. The first bit is reserved for the sign of the entered character. So the remaining bits 
+available for the value to be entered. Thus, 2^7 (=128) characters are available for positive and 2^7 for negative. Thus, the maximum value is 127. (127 because the values begin from 0 and only 128 can be entered.) If you want to get the maximum value assign 0 to the first bit and 1 to the other bits, that is , 01111111.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q3. Unsigned char minimum value: 0
+
+Explanation: As the unsigned character can only be 0 and positive, so the minimum value is 0.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q4. Unsigned char maximum value: 255
+
+Explanation: For an unsigned char only positive values (and zero) can be stored. So, 2^8 characters can be entered, that is 256 values can be entered. But the values begin from 0, so the maximum value that can be entered is 255.To get the maximum value, enter 1 in all the available bits. You will get 255.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q5. Char minimum value: -128
+
+Explanation: Char minimum value means same as Signed char minimum value.So, minimum value is -128.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q6. Char maximum value: 127
+
+Explanation: Char maximum value means same as Signed char maximum value. So, maximum value is 127.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q7. Signed short minimum value: -32768
+
+Explanation: A short value occupies 2 bytes (=16 bits). In the case of a signed short value, the first bit is reserved for the sign. Thus, there are 2^15 positive values and 2^15 (=32768) negative values that can be entered.so the minimum value is -32768.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q8. Signed short maximum value: 32767
+
+Explanation: As described in the previous question, a short type can contain 2^15 positive values. To get the maximum value enter 0 in the first bit and 1 in the rest of the bits. The value is 32767.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q9. Unsigned short minimum value: 0
+
+Explanation: The unsigned values can contain only positive values and 0 so the minimum value is 0.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q10. Unsigned short maximum value: 65535
+
+Explanation: To get the maximum value, assign 1 to all the available bits. So the maximum value is 65535.All the available bits are used to enter a number and so 2^16 available. As the values begin from 0 and so maximum value is (2^16 - 1 = 65535).  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q11. Signed int minimum value: -2147483648
+
+Explanation: The int type can store 4 bytes (=32 bits). Here again, the first bit is reserved for the sign. Thus, 2^31 positive values and 2^31 negative values can be stored. Thus, the minimum value is -2147483648.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q12. Signed int maximum value: 2147483647
+
+Explanation: As explained above, 2^15 positive values can be stored. To get the maximum value assign 0 to the first bit and 1 to the remaining 15 bits. Thus< the maximum value is 2147483647.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q13. Unsigned int minimum value: 0
+
+Explanation: Unsigned values can contain only positive values(including zero                                                                                                                                    ). So, the minimum value that can be entered is 0.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q14. Unsigned int maximum value: 4294967295
+
+Explanation: There are 2^31 positive values that can be entered but starting with 0, and so the maximum value is 2^31 - 1 = 4294967295.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q15. Signed long minimum value: -9223372036854775808
+
+Explanation: The long datatype can store 8 bytes = 64 bits and so 2^63 positive and 2^63 negative values can be stored in the long datatype.The exponent is 63 because the first bit is reserved for the sign. Thus, the minimum value is -9223372036854775808 (-2^63).
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q16. Signed long maximum value: 9223372036854775807
+
+Explanation: As explained above, a long datatype can store 2^63 positive values,including 0,the maximum value is 9223372036854775807.It is one less than 2^63 because the first value is 0.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q17. Unsigned long minimum value: 0
+
+Explanation: As unsigned values are only positive and zero, the minimum value is 0.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q18. Unsigned long maximum value: 18446744073709551615
+
+Explanation: To get the maximum value assign 1 to all the available bits, that is, the maximum value is 18446744073709551615.
+The maximum value that a Long datatype can store should be 2^64 as here no bit is reserved. But, as 0 is the first value that can be stored the maximum value is 18446744073709551615.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q19. Signed long long minimum value: -9223372036854775808
+
+Explanation: Long long datatype occupies 64 bits and so 2^64 characters. But the first bit is reserved for the sign and so only 2^63 values can be stored.(2^63 positive and 2^63 negative).Thus, the minimum value is -2^63, that is, -9223372036854775808.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q20. Signed long long maximum value: 9223372036854775807
+
+Explanation: As explained above, 2^63 positive values can be stored in a long long datatype. As the first value is 0, the maximum value is 
+2^63 - 1 = 9223372036854775807.To get the maximum value, we can assign 0 to the first bit and 1 to the other bits.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q21. Unsigned long long minimum value: 0
+
+Explanation: As unsigned values are only positive and zero, the minimum value is 0.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Q22. Unsigned long long maximum value: 18446744073709551615
+
+Expalanation: to get the maximum value assign 1 to all the 64 bits.So, the value is 18446744073709551615. The long long datatype can store 2^64 characters and so its maximum value is equal to 2^64 - 1 (because the first value is 0).
+-----------------------------------------------------------------------------------------------------------------------------------------------
